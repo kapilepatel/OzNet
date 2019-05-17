@@ -3,14 +3,14 @@
     {
       "endpoint": "/movies",
       "destination": {
-        "path": "http://localhost:8090/movies/",
+        "uri": "http://localhost:8090/movies/",
         "requiresAuthentication": "true"
       }
     },
     {
       "endpoint": "/songs",
       "destination": {
-        "path": "http://localhost:8091/songs/",
+        "uri": "http://localhost:8091/songs/",
         "requiresAuthentication": "false"
       }
     }
